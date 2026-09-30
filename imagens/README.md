@@ -2,7 +2,19 @@
 
 [← voltar](../README.md)
 
-Telas do Kulto rodando, com dados reais.
+Telas do Kulto rodando, com dados reais — e as peças da marca.
+
+## Marca
+
+![Kulto](marca.png)
+
+![Paleta neutra](paleta.png)
+
+![Cores das mídias](paleta-verticais.png)
+
+![Cores de estado](paleta-estado.png)
+
+---
 
 ## Entrada
 

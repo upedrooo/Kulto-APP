@@ -1,9 +1,27 @@
-# Kulto
+<div align="center">
 
-**Reviews de filme, série, livro e game num lugar só.**
+<img src="imagens/marca.png" alt="Kulto" width="100%">
+
+### Reviews de filme, série, livro e game num lugar só.
+
 Feed cronológico, sem algoritmo. Web primeiro, iOS e Android depois.
 
-🔗 **[kulto.me](https://kulto.me)** · 📄 **[docs.kulto.me](https://docs.kulto.me)**
+**[kulto.me](https://kulto.me)** · no ar, com conta, pagamento e dados reais · **[docs.kulto.me](https://docs.kulto.me)**
+
+![Expo SDK 54](https://img.shields.io/badge/Expo-SDK%2054-000020?style=flat-square&logo=expo&logoColor=white)
+![React Native 0.81](https://img.shields.io/badge/React%20Native-0.81-61DAFB?style=flat-square&logo=react&logoColor=black)
+![React 19](https://img.shields.io/badge/React-19-61DAFB?style=flat-square&logo=react&logoColor=black)
+![TypeScript strict](https://img.shields.io/badge/TypeScript-strict-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![NativeWind 4](https://img.shields.io/badge/NativeWind-4-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
+![TanStack Query 5](https://img.shields.io/badge/TanStack%20Query-5-FF4154?style=flat-square&logo=reactquery&logoColor=white)
+![Supabase](https://img.shields.io/badge/Supabase-Postgres%20%2B%20RLS-3FCF8E?style=flat-square&logo=supabase&logoColor=white)
+![Deno](https://img.shields.io/badge/Edge%20Functions-Deno-70FFAF?style=flat-square&logo=deno&logoColor=black)
+![Stripe](https://img.shields.io/badge/Stripe-pagamentos-635BFF?style=flat-square&logo=stripe&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-deploy-000000?style=flat-square&logo=vercel&logoColor=white)
+![PWA](https://img.shields.io/badge/PWA-instal%C3%A1vel-5A0FC8?style=flat-square&logo=pwa&logoColor=white)
+![i18n](https://img.shields.io/badge/i18n-pt%20%C2%B7%20en%20%C2%B7%20es-A3A099?style=flat-square)
+
+</div>
 
 ---
 
@@ -133,18 +151,67 @@ TypeScript, e a chave é conferida na compilação. Remover uma string usada em
 tela **quebra o build** em vez de virar `notifications.like` aparecendo para
 o usuário.
 
-## Design
+## A marca
 
-O Kulto é monocromático de propósito: creme sobre preto, sem sombra —
-elevação é superfície mais clara com borda. Cor aparece em três lugares e
-mais nenhum: o ícone da mídia, o coração de curtida e o azul do "ver depois".
+O nome vem de **culto** — no sentido de quem cultiva o que consome, e de quem
+tem cultura sobre aquilo. O K troca o C porque a marca precisava de um
+símbolo que funcionasse sozinho, e um K desenhado em quatro pétalas dá isso:
+as **quatro mídias** do app, girando em torno do mesmo centro.
 
-A tela de entrada é a exceção deliberada, e a única: ali entram cartazes
-fotográficos coloridos, cada um vestindo a linguagem gráfica da sua mídia —
-cartão de episódio, página impressa, tela de save. Quem entra vê campanha;
-quem está dentro vê produto.
+<div align="center">
+  <img src="imagens/marca.png" alt="Símbolo e assinatura do Kulto" width="70%">
+</div>
 
-Mais em **[docs/design.md](docs/design.md)**.
+O símbolo vive sozinho no ícone do app, no canto do cabeçalho e no bloco creme
+da tela de entrada. A assinatura completa aparece onde há espaço e onde a
+marca precisa se apresentar por extenso.
+
+### Cor
+
+**Monocromático.** Creme sobre preto, com uma escala curta de ambientes entre
+os dois — nunca preto puro, que fecha a tela.
+
+![Paleta neutra](imagens/paleta.png)
+
+A cor entra em três lugares, e **só significando alguma coisa**. As mídias
+têm cada uma a sua, com o mesmo peso entre si, e ela aparece só em ícone, chip
+ou traço — nunca como fundo de superfície:
+
+![Cores das mídias](imagens/paleta-verticais.png)
+
+E os estados, que comunicam e não decoram — o azul do "ver depois" é o caso
+mais claro: sem ele, guardado e não guardado seriam o mesmo desenho.
+
+![Cores de estado](imagens/paleta-estado.png)
+
+> A paleta é **fechada no Tailwind**: `white`, `black` e os cinzas padrão
+> foram removidos da configuração. Se a classe não existe, o hex solto não
+> entra — e o tema claro não nasce quebrado.
+
+### Tipografia
+
+**Space Grotesk** para o que se lê: título, corpo, botão.
+**Inter com `tabular-nums`** para o que se compara: nota, contador, timestamp,
+rótulo em caixa alta. Números que mudam de largura fazem a coluna tremer —
+`4,5` e `1,1` precisam ocupar o mesmo espaço.
+
+### Elevação é borda, não sombra
+
+`boxShadow` está desativado no tema. O que precisa parecer acima usa
+superfície mais clara e uma borda de 1px. Sombra sobre fundo quase preto vira
+borrão cinza e muda de aparência entre navegadores; borda é nítida em qualquer
+tela.
+
+### Voz
+
+Seca, direta, com ponto final. Sem exclamação, sem emoji decorativo. O botão
+diz o que vai acontecer, e o aviso seguinte confirma no mesmo verbo.
+
+> Ainda sem review de quem você segue.
+> Siga alguém pra ver as reviews aqui.
+
+As regras completas, com a conta da zona segura dos cartazes, em
+**[docs/design.md](docs/design.md)**.
 
 ## Telas
 
