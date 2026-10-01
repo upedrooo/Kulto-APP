@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="imagens/marca.png" alt="Kulto" width="100%">
+<img src="imagens/marca.png" alt="Kulto" width="50%">
 
 ### Reviews de filme, série, livro e game num lugar só.
 
