@@ -233,4 +233,10 @@ As nove capturas, com legenda, em **[imagens/](imagens/)**.
 Kulto é um projeto autoral, tocado do desenho ao deploy — produto, design,
 front-end, banco, infraestrutura e o site de documentação.
 
-Feito por **[Pedro Silva](https://github.com/upedrooo)**.
+## Contato
+
+**Pedro Silva** · [LinkedIn](https://www.linkedin.com/in/pedro-lucas-silva-6b1678358/?isSelfProfile=true) · [pedrol09872@gmail.com](mailto:pedrol09872@gmail.com)
+
+## Licença
+
+Todos os direitos reservados. Os textos, imagens e trechos de código deste repositório são apresentados para fins de portfólio e consulta; não podem ser reutilizados comercialmente sem autorização. Veja [`LICENSE`](LICENSE).
