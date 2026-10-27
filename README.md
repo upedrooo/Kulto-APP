@@ -233,10 +233,25 @@ As nove capturas, com legenda, em **[imagens/](imagens/)**.
 Kulto é um projeto autoral, tocado do desenho ao deploy — produto, design,
 front-end, banco, infraestrutura e o site de documentação.
 
-## Contato
+## Connect With Me
 
-**Pedro Silva** · [LinkedIn](https://www.linkedin.com/in/pedro-lucas-silva-6b1678358/?isSelfProfile=true) · [pedrol09872@gmail.com](mailto:pedrol09872@gmail.com)
-
+<p align="left">
+  <a href="https://pedrosilva.space" target="_blank">
+    <img src="https://img.shields.io/badge/-pedrosilva.space-333333?style=flat&logo=google-chrome&logoColor=white" alt="Portfolio" />
+  </a>
+  <a href="https://www.linkedin.com/in/pedro-lucas-silva-6b1678358/" target="_blank">
+    <img src="https://img.shields.io/badge/-LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+  <a href="https://x.com/pfiuzzzz" target="_blank">
+    <img src="https://img.shields.io/badge/-X-000000?style=flat&logo=x&logoColor=white" alt="X" />
+  </a>
+  <a href="https://www.instagram.com/pfiuz" target="_blank">
+    <img src="https://img.shields.io/badge/-Instagram-E4405F?style=flat&logo=instagram&logoColor=white" alt="Instagram" />
+  </a>
+  <a href="mailto:contato@upedrooo.dev">
+    <img src="https://img.shields.io/badge/-pedrol09872@gmail.com-EA4335?style=flat&logo=gmail&logoColor=white" alt="Email" />
+  </a>
+</p>
 ## Licença
 
 Todos os direitos reservados. Os textos, imagens e trechos de código deste repositório são apresentados para fins de portfólio e consulta; não podem ser reutilizados comercialmente sem autorização. Veja [`LICENSE`](LICENSE).
